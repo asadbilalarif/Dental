@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #e8f6fc;
+  --color-primary-100: #cce9f7;
+  --color-primary-200: #99d3ef;
+  --color-primary-300: #5ebde5;
+  --color-primary-400: #2aaee0;
+  --color-primary-500: #0088c3;
+  --color-primary-600: #0070a8;
+  --color-primary-700: #005a87;
+  --color-primary-800: #004466;
+  --color-primary-900: #002e45;
+  --color-cyan-btn: #3dbdee;
+  --color-cyan-btn-hover: #2aa8d8;
+  --color-accent: #f7941d;
+  --color-accent-hover: #e5850f;
+  --color-navy: #003057;
+  --color-navy-dark: #002540;
+  --color-navy-light: #1a4a6e;
+  --color-hero-light: #e5f4fa;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Poppins", "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-700 antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-navy;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-4 py-14 sm:px-6 lg:px-8 lg:py-20;
+  }
+
+  .container-capline {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, #0088c3 0%, #0070a8 50%, #005a87 100%);
+  }
+
+  .gradient-stats {
+    background: linear-gradient(90deg, #0088c3 0%, #3dbdee 50%, #0088c3 100%);
+  }
+
+  .btn-cyan {
+    @apply rounded bg-cyan-btn px-4 py-2 text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-cyan-btn-hover xl:text-sm;
+  }
+
+  .btn-navy {
+    @apply rounded bg-navy px-8 py-3 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-navy-dark;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-500 to-primary-300 bg-clip-text text-transparent;
+  }
+}
