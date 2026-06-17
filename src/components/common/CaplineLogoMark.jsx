@@ -1,4 +1,4 @@
-/** Geometric "C" mark inspired by Capline brand */
+/** Geometric mark for NUMCARE-RCM brand */
 export default function CaplineLogoMark({ className = 'h-12 w-12' }) {
   return (
     <svg

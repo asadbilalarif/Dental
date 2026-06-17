@@ -41,8 +41,8 @@ export default function TrustedServicesSection() {
             headerBg="bg-navy"
           />
           <Column
-            title="Why Capline Dental Services?"
-            items={trustedServices.whyCapline}
+            title="Why NUMCARE-RCM?"
+            items={trustedServices.whyNumcare}
             headerBg="bg-primary-500"
           />
         </div>

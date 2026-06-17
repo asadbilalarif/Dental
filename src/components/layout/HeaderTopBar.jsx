@@ -5,7 +5,7 @@ import { SITE_CONFIG } from '../../constants/site'
 export default function HeaderTopBar() {
   return (
     <div className="relative border-b border-gray-100 bg-white">
-      <div className="container-capline flex items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8 lg:py-3.5">
+      <div className="container-capline flex items-center justify-between gap-4 px-4 py-2 sm:px-6 sm:py-2.5 lg:px-8 lg:py-3">
         <Logo variant="brand" />
 
         <div className="hidden flex-col items-end gap-1.5 text-sm text-gray-700 md:flex">

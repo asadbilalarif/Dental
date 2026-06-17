@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="gradient-primary border-b border-primary-400/30">
         <div className="container-capline section-padding text-center">
           <h3 className="text-xl font-bold text-white sm:text-2xl">
-            Partner with Capline and Unlock Success in 6 Months
+            Partner with NUMCARE-RCM and Unlock Success in 6 Months
           </h3>
           <p className="mt-4 flex flex-wrap justify-center gap-4 text-sm text-primary-100 sm:gap-8">
             <span>{PARTNER_STATS.collections}</span>
@@ -35,7 +35,7 @@ export default function Footer() {
       <div className="container-capline section-padding">
         <div className="grid gap-12 lg:grid-cols-4">
           <div className="lg:col-span-1">
-            <Logo light />
+            <Logo />
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
               AI-enabled end-to-end dental RCM services. We protect, manage, and accelerate your dental revenue.
             </p>

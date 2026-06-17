@@ -6,7 +6,7 @@ export default function ServicesSection() {
   return (
     <section className="section-padding bg-white">
       <div className="container-capline">
-        <SectionHeading title="We Offer Our Specialized Services To Meet Your Needs" />
+        <SectionHeading title="We Provide Specialized Services Tailored to Meet Your Needs" />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {homeServices.map((service, i) => (
             <ServiceCard key={service.id} service={service} index={i} />

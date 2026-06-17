@@ -1,11 +1,25 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { HiCheckCircle, HiArrowLeft } from 'react-icons/hi'
+import { HiArrowLeft } from 'react-icons/hi'
 import PageHero from '../layouts/PageHero'
 import CTABanner from '../components/common/CTABanner'
 import ServiceCard from '../components/services/ServiceCard'
 import { getServiceBySlug, services } from '../data/services'
 import { ROUTES } from '../constants/routes'
+
+function ServiceContent({ content }) {
+  const paragraphs = Array.isArray(content) ? content : [content]
+
+  return (
+    <div className="space-y-4">
+      {paragraphs.map((paragraph) => (
+        <p key={paragraph.slice(0, 40)} className="text-lg leading-relaxed text-gray-600">
+          {paragraph}
+        </p>
+      ))}
+    </div>
+  )
+}
 
 export default function ServiceDetail() {
   const { slug } = useParams()
@@ -21,7 +35,7 @@ export default function ServiceDetail() {
     <>
       <PageHero
         title={service.title}
-        subtitle={service.description}
+        subtitle={service.tagline}
         backgroundImage={service.image}
         breadcrumbs={
           <span>
@@ -57,24 +71,9 @@ export default function ServiceDetail() {
             />
             <div>
               <h2 className="text-2xl font-bold text-navy">Overview</h2>
-              <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                {service.description}
-              </p>
-              <p className="mt-4 text-gray-600">{service.excerpt}</p>
-
-              {service.features && (
-                <div className="mt-8">
-                  <h3 className="text-xl font-bold text-navy">Key Features</h3>
-                  <ul className="mt-4 space-y-3">
-                    {service.features.map((feature) => (
-                      <li key={feature} className="flex gap-3 text-gray-600">
-                        <HiCheckCircle className="h-5 w-5 shrink-0 text-primary-500" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              <div className="mt-4">
+                <ServiceContent content={service.content} />
+              </div>
             </div>
           </div>
         </div>

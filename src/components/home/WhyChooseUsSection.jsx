@@ -11,7 +11,7 @@ import {
 } from 'react-icons/fa'
 import SectionHeading from '../common/SectionHeading'
 import Button from '../common/Button'
-import { whyChooseItems } from '../../data/homeContent'
+import { whyChooseItems, whyChooseSection } from '../../data/homeContent'
 import { ROUTES } from '../../constants/routes'
 
 const iconMap = {
@@ -33,8 +33,8 @@ export default function WhyChooseUsSection() {
     <section className="section-padding bg-white">
       <div className="container-capline">
         <SectionHeading
-          title="Why Choose Capline Dental Services?"
-          description="Most dental billing companies focus on just processing claims. At Capline Dental Services, we protect, manage, and accelerate your dental revenue."
+          title={whyChooseSection.title}
+          description={whyChooseSection.description}
         />
 
         <div className="grid gap-8 lg:grid-cols-12 lg:gap-10">
@@ -80,12 +80,24 @@ export default function WhyChooseUsSection() {
               </div>
               <h3 className="text-xl font-bold text-navy lg:text-2xl">{activeItem.title}</h3>
               <p className="mt-4 leading-relaxed text-gray-600">{activeItem.content}</p>
+              {activeItem.bullets?.length > 0 && (
+                <ul className="mt-4 list-disc space-y-2 pl-5 text-gray-600">
+                  {activeItem.bullets.map((bullet) => (
+                    <li key={bullet} className="leading-relaxed">
+                      {bullet}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {activeItem.footer && (
+                <p className="mt-4 leading-relaxed text-gray-600">{activeItem.footer}</p>
+              )}
             </motion.div>
           </AnimatePresence>
         </div>
 
         <p className="mt-10 text-center text-lg font-semibold text-navy">
-          Ready to unlock up to 23% more revenue from your dental practice?
+          {whyChooseSection.cta}
         </p>
         <div className="mt-5 text-center">
           <Button to={ROUTES.CONTACT} variant="primary" size="lg">

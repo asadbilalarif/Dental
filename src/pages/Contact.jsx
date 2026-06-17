@@ -33,7 +33,7 @@ export default function Contact() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
             >
-              <h2 className="text-2xl font-bold text-navy">Capline Dental Services</h2>
+              <h2 className="text-2xl font-bold text-navy">{SITE_CONFIG.name}</h2>
               <p className="mt-4 text-gray-600">
                 We're here to help your practice thrive. Reach out for billing, credentialing, or insurance verification support.
               </p>
@@ -118,7 +118,7 @@ export default function Contact() {
 
           <div className="mt-12 overflow-hidden rounded-2xl shadow-lg ring-1 ring-gray-100">
             <iframe
-              title="Capline Dental Services Location"
+              title={`${SITE_CONFIG.name} Location`}
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.0!2d-95.3!3d29.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjlCsDU0JzAwLjAiTiA5NcKwMTgnMDAuMCJX!5e0!3m2!1sen!2sus!4v1"
               width="100%"
               height="400"

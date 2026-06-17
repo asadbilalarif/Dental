@@ -1,9 +1,9 @@
 export const heroSlides = [
   {
     id: 1,
-    headline: 'CHOOSE PATIENTS',
-    headlineAccent: 'OVER PAPERWORK',
-    subheadline: '',
+    headline: 'FOCUS ON PATIENTS,',
+    headlineAccent: 'LEAVE THE PAPERWORK TO US',
+    subheadline: 'We provide specialized services tailored to meet your needs.',
     cta: 'Get Started',
     images: [
       'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&q=80',
@@ -12,10 +12,10 @@ export const heroSlides = [
   },
   {
     id: 2,
-    headline: 'AI-Enabled End-to-End',
-    headlineAccent: 'Dental RCM Services',
+    headline: 'Complete Dental',
+    headlineAccent: 'Revenue Management',
     subheadline:
-      'Outsource dental billing, credentialing, insurance verification, and end-to-end RCM to our expert team supported by AI-driven workflows that work like an extension of your practice.',
+      'Unlike most dental billing companies that stop at claim processing, NUMCARE-RCM takes a complete approach — protecting, managing, and accelerating your dental revenue.',
     cta: 'Get Started',
     images: [
       'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
@@ -51,7 +51,7 @@ export const trustedServices = {
     'Incorrect and Incomplete IVs',
     'Hassle Related to Credentialing',
   ],
-  whyCapline: [
+  whyNumcare: [
     'Accelerated Cash Flow',
     'Decreased Overhead',
     'Accurate, On-Time Payment Posting',
@@ -63,54 +63,76 @@ export const trustedServices = {
   ],
 }
 
+export const whyChooseSection = {
+  title: 'Reasons to Choose NUMCARE-RCM',
+  description:
+    'Unlike most dental billing companies that stop at claim processing, NUMCARE-RCM takes a complete approach — protecting, managing, and accelerating your dental revenue.',
+  cta: 'Ready to Grow Your Dental Practice 3x?',
+}
+
 export const whyChooseItems = [
   {
     id: 'expertise',
-    title: 'Proven Expertise in Dental Revenue Cycle Management',
+    title: 'A Track Record of Excellence in Dental Revenue Cycle Management',
     content:
-      'With 12+ years of hands-on experience, Capline supports general dentists, specialists, and multi-location practices across billing, credentialing, and insurance workflows. Our deep understanding of payer behavior helps us identify revenue risks early and resolve them before they impact collections.',
+      'With more hands on experience, NUMCARE-RCM partners with general dentists, specialists, and multi-location practices on billing, credentialing, and insurance workflows. We understand how payers think, allowing us to spot revenue risks early and stop them from ever reaching your collections.',
     icon: 'expertise',
   },
   {
-    id: 'ai-tech',
-    title: 'AI-Driven Technology for Smarter Dental RCM',
-    content:
-      'Capline uses AI-powered software and data-driven technologies to support smarter, more accurate revenue cycle workflows. Our AI-enabled systems help us analyze claim patterns, identify denial risks, flag documentation gaps, and prioritize follow-ups more efficiently while maintaining full human oversight on every account.',
-    icon: 'ai',
-  },
-  {
     id: 'integrated',
-    title: 'More Than Dental Billing Services',
+    title: 'More Than Billing — A Complete Revenue Partner',
     content:
-      "Dental revenue doesn't break at claim submission—it breaks in disconnected workflows. Our dental billing, credentialing, and insurance verification services work as one integrated system, ensuring faster claim movement, reduced denials, and clear visibility into where revenue is delayed or lost.",
+      "The real breakdown in dental revenue doesn't happen at claim submission — it happens across disconnected workflows. That's why our billing, credentialing, and insurance verification services function as one unified system, giving you:",
+    bullets: [
+      'Faster claim movement with minimal bottlenecks',
+      'Lower denial rates and less rework',
+      'Clear visibility into where revenue gets stuck',
+      'Targeted fixes for the root causes of slow payments',
+    ],
     icon: 'integrated',
   },
   {
     id: 'dentistry',
-    title: 'Built Specifically for Dentistry',
-    content:
-      'Capline is dental-first by design, with expertise in CDT coding, PPO fee schedules, Medicaid dental billing, specialty-specific requirements, and pre-authorizations that get approved—resulting in cleaner claims, fewer rejections, and faster reimbursements.',
+    title: 'Designed Exclusively for Dental Practices',
+    content: 'NUMCARE-RCM offering unmatched expertise in:',
+    bullets: [
+      'CDT coding and insurer-specific rules',
+      'PPO fee schedules and common downgrade trends',
+      'Medicaid billing workflows for dental practices',
+      'Requirements for specialty dental billing',
+      'Pre-authorizations that are approved the first time',
+    ],
+    footer:
+      'This specialized focus means you enjoy cleaner claims, fewer rejections, and faster reimbursements.',
     icon: 'dentistry',
   },
   {
     id: 'credentialing',
-    title: 'Dental Credentialing That Protects Cash Flow',
+    title: 'Cash Flow Protection Through Dental Credentialing',
     content:
-      'Credentialing delays quietly drain revenue. We ensure providers are credentialed before seeing insured patients, re-credentialing never lapses, CAQH profiles stay current, and payers are followed up proactively.',
+      'Slow credentialing quietly costs you revenue. At NUMCARE-RCM, we manage credentialing as a critical cash-flow function — which means we guarantee:',
+    bullets: [
+      'Providers are fully credentialed before they see insured patients',
+      'Re-credentialing timelines are always met',
+      'CAQH profiles are kept accurate and current',
+      'Payer follow-ups happen proactively, not reactively',
+    ],
+    footer:
+      'This approach leads to fewer retroactive denials and consistently stronger first-pass payments.',
     icon: 'credentialing',
   },
   {
     id: 'denials',
-    title: 'Fewer Denials. Stronger Collections.',
+    title: 'Reduce Denials. Boost Collections.',
     content:
-      'Recurring denials usually point to gaps in the billing process. We reduce denials by fixing issues at the source—coding errors, missing documentation, eligibility mistakes, and payer-specific requirements.',
+      "When denials keep coming back, it's a sign of deeper billing process gaps. We eliminate denials by solving the real problems: faulty codes, incomplete documentation, eligibility errors, and missed payer rules. The result? Consistent collections that scale with your growing practice.",
     icon: 'denials',
   },
   {
     id: 'compliance',
-    title: 'Compliance-Driven & Secure Dental Billing Services',
+    title: 'Dental Billing You Can Trust — Fully Compliant & Secure',
     content:
-      'Our workflows follow HIPAA guidelines to ensure secure data handling and audit-ready billing that protects your practice as payer and regulatory requirements evolve.',
+      'We design our workflows around HIPAA standards for secure data handling and audit-ready billing. This protects your practice now — and secures your revenue as regulations and payer rules change over time.',
     icon: 'compliance',
   },
 ]
@@ -238,18 +260,40 @@ export const revenueAuditBenefits = [
 ]
 
 export const aboutContent = {
-  heroTitle: 'About Capline Dental Services',
-  heroSubtitle:
-    'Your trusted partner in AI-enabled dental revenue cycle management for over 12 years.',
-  mission:
-    'At Capline Dental Services, we protect, manage, and accelerate your dental revenue. Most billing companies focus on processing claims—we focus on outcomes: faster collections, fewer denials, and practices that can prioritize patients over paperwork.',
-  vision:
-    'To be the leading dental-first RCM partner combining human expertise with AI-driven technology for practices nationwide.',
-  values: [
-    { title: 'Dental-First Expertise', description: 'Built exclusively for dentistry—not generic medical billing.' },
-    { title: 'Transparency', description: 'No setup fees, no long-term contracts, no hidden charges.' },
-    { title: 'HIPAA Compliance', description: 'Secure, audit-ready workflows protecting your practice.' },
-    { title: 'Partnership', description: 'We work as an extension of your team with dedicated billers.' },
-  ],
+  heroTitle: 'About Us',
+  heroSubtitle: 'Your Partner in Practice Growth — NUMCARE-RCM',
   teamImage: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1200&q=80',
+  sections: [
+    {
+      id: 'overview',
+      title: 'Overview',
+      content:
+        "With NUMCARE-RCM, you get a true end-to-end partner for your practice — handling everything from credentialing and insurance verification to insurance billing. We take care of the operational stress so you can focus on what matters most: your patients' smiles. Owned and managed by seasoned industry experts, we know what it takes to build and sustain a trusted dental practice rooted in quality and precision.",
+    },
+    {
+      id: 'team',
+      title: 'Team',
+      content:
+        'NUMCARE-RCM is committed to offering you exceptional insurance billing, credentialing, insurance verification, and more — all tailored to your unique needs. We stay in constant touch with you to ensure every requirement is met quickly and efficiently. E-mail/Call us to connect with our friendly staff and learn more about how we can serve you.',
+    },
+    {
+      id: 'process',
+      title: 'Process',
+      content:
+        'NUMCARE-RCM is wholly committed to elevating service standards for the entire dental fraternity. With continuous process improvement and innovative strategies, we address your needs seamlessly and cost-effectively — leaving you free to focus on your patients. Our belief is simple: an efficient service delivery model eliminates pitfalls and closes potential gaps, paving the way for your practice to thrive.',
+    },
+    {
+      id: 'reporting',
+      title: 'Reporting',
+      content:
+        "NUMCARE-RCM keeps you informed with weekly and monthly reports that offer clear visibility into billed amounts and collection progress. We transform data into actionable insights that streamline your revenue cycle. You'll always have full access to the essential information required to make confident decisions, fine-tune your strategy, and act quickly when needed.",
+    },
+    {
+      id: 'dedicated-support',
+      title: 'Dedicated Support',
+      content:
+        "At NUMCARE-RCM, you'll work with highly experienced, dedicated account managers who take the time to understand your needs — and then exceed them. Well-versed in every nuance of our industry, they stay perfectly in sync with your practice. Our experts are always on standby to ensure smooth service delivery, giving you the freedom to focus on your patients.",
+      cta: 'Call us at {{phone}} today to explore how NUMCARE-RCM can support your insurance billing, credentialing, insurance verification, and other practice needs.',
+    },
+  ],
 }

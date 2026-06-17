@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
+  FaChartLine,
+  FaClipboardCheck,
   FaFileInvoiceDollar,
+  FaMoneyCheckAlt,
   FaUserCheck,
   FaIdCard,
   FaReceipt,
@@ -12,6 +15,9 @@ const iconMap = {
   verification: FaUserCheck,
   credentialing: FaIdCard,
   patient: FaReceipt,
+  'pre-auth': FaClipboardCheck,
+  payment: FaMoneyCheckAlt,
+  ar: FaChartLine,
 }
 
 export default function ServiceCard({ service, index = 0 }) {

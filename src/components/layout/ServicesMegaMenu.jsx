@@ -5,12 +5,8 @@ import { ROUTES } from '../../constants/routes'
 import { MEGA_MENU_TOP } from '../../constants/layout'
 import { HiArrowRight } from 'react-icons/hi'
 
-/** Primary services shown in nav dropdown (matches live site focus) */
-const navDropdownServices = services.filter((s) =>
-  ['billing-collection', 'eligibility-verification', 'credentialing', 'patient-statement'].includes(
-    s.id
-  )
-)
+/** Primary services shown in nav dropdown */
+const navDropdownServices = services.slice(0, 4)
 
 export default function ServicesMegaMenu({ isOpen, onClose, hideTopBar = false }) {
   const panelTop = hideTopBar ? MEGA_MENU_TOP.navOnly : MEGA_MENU_TOP.withTopBar

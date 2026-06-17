@@ -15,7 +15,7 @@ export default function BillingProcessSection() {
   return (
     <section className="section-padding bg-hero-light">
       <div className="container-capline">
-        <SectionHeading title="Capline's Ultimate Dental Billing Approach" />
+        <SectionHeading title="NUMCARE-RCM Ultimate Dental Billing Approach" />
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {billingApproach.map((step, index) => {
             const Icon = stepIcons[index] || FaRobot

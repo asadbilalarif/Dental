@@ -12,7 +12,7 @@ export const testimonials = [
     name: 'Jessica Garcia',
     role: 'Office Manager',
     date: 'Sep, 2025',
-    text: 'I have been working with Capline for credentialing for my private practice for over a year. During this time, they have proven to be professional, effective, and very skilled. I especially like their bi-weekly report to help clients keep track of progress.',
+    text: 'I have been working with NUMCARE-RCM for credentialing for my private practice for over a year. During this time, they have proven to be professional, effective, and very skilled. I especially like their bi-weekly report to help clients keep track of progress.',
     rating: 5,
   },
   {
@@ -36,7 +36,7 @@ export const testimonials = [
     name: 'Dr. Illinois Practice',
     role: 'Practice Owner',
     date: 'Mar, 2025',
-    text: 'Marcus and Logan from Capline services have been very helpful and responsive in helping my practice get credentialing and billing services in the state of Illinois. I would highly recommend their services.',
+    text: 'Marcus and Logan from NUMCARE-RCM have been very helpful and responsive in helping my practice get credentialing and billing services in the state of Illinois. I would highly recommend their services.',
     rating: 5,
   },
   {
@@ -44,7 +44,7 @@ export const testimonials = [
     name: 'Colleague Referral',
     role: 'General Dentist',
     date: 'Jan, 2024',
-    text: 'Credentialing process has been simplified thanks to Capline! Great customer service and fast turnaround with insurances! Will recommend to my colleagues!',
+    text: 'Credentialing process has been simplified thanks to NUMCARE-RCM! Great customer service and fast turnaround with insurances! Will recommend to my colleagues!',
     rating: 5,
   },
   {
@@ -52,7 +52,7 @@ export const testimonials = [
     name: '35-Year Practice Owner',
     role: 'Dental Practitioner',
     date: 'Nov, 2022',
-    text: "In my 35 years as a business owner and dental practitioner, I have found few businesses where they prioritize client's objectives over their own business. Capline is one of these businesses.",
+    text: "In my 35 years as a business owner and dental practitioner, I have found few businesses where they prioritize client's objectives over their own business. NUMCARE-RCM is one of these businesses.",
     rating: 5,
   },
   {
@@ -60,7 +60,7 @@ export const testimonials = [
     name: 'Practice Manager',
     role: 'Dental Office',
     date: 'Feb, 2020',
-    text: 'We LOVE Capline Services! I am SO thankful for all of their help daily to make our practice run smooth. The employees are very friendly and treat you like family.',
+    text: 'We LOVE NUMCARE-RCM! I am SO thankful for all of their help daily to make our practice run smooth. The employees are very friendly and treat you like family.',
     rating: 5,
   },
 ]

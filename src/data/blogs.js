@@ -16,7 +16,7 @@ export const blogs = [
       </ul>
     `,
     image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80',
-    author: 'Capline Team',
+    author: 'NUMCARE-RCM Team',
     date: '2026-01-15',
     category: 'CDT Codes',
     readTime: '5 min read',
@@ -32,7 +32,7 @@ export const blogs = [
       <p>Understanding eligible versus non-eligible expenses helps patients maximize benefits while practices can guide conversations at the front desk.</p>
     `,
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
-    author: 'Capline Team',
+    author: 'NUMCARE-RCM Team',
     date: '2026-01-10',
     category: 'Patient Billing',
     readTime: '6 min read',
@@ -48,7 +48,7 @@ export const blogs = [
       <p>The evolution of the dental industry has created new operational models. Understanding DSO structure helps billing teams align workflows across multiple locations.</p>
     `,
     image: 'https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&q=80',
-    author: 'Capline Team',
+    author: 'NUMCARE-RCM Team',
     date: '2025-12-20',
     category: 'Industry Trends',
     readTime: '7 min read',
@@ -64,7 +64,7 @@ export const blogs = [
       <p>Practices should stay informed on annual limits and communicate clearly with patients about eligible services.</p>
     `,
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80',
-    author: 'Capline Team',
+    author: 'NUMCARE-RCM Team',
     date: '2025-12-05',
     category: 'Compliance',
     readTime: '5 min read',
@@ -80,7 +80,7 @@ export const blogs = [
       <p>Billing teams must ensure provider numbers, taxonomy codes, and payer enrollments align for temporary providers to avoid claim rejections.</p>
     `,
     image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80',
-    author: 'Capline Team',
+    author: 'NUMCARE-RCM Team',
     date: '2025-11-18',
     category: 'Billing Tips',
     readTime: '6 min read',
@@ -95,7 +95,7 @@ export const blogs = [
       <p>Recurring denials usually point to gaps in the billing process. Fixing issues at the source—coding errors, missing documentation, eligibility mistakes—keeps collections consistent as your practice grows.</p>
     `,
     image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
-    author: 'Capline Team',
+    author: 'NUMCARE-RCM Team',
     date: '2025-11-01',
     category: 'RCM',
     readTime: '8 min read',

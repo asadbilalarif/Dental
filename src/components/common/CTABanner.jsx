@@ -3,7 +3,7 @@ import Button from './Button'
 import { ROUTES } from '../../constants/routes'
 
 export default function CTABanner({
-  title = 'Ready to 3x Your Dental Practice?',
+  title = 'Ready to Grow Your Dental Practice 3x?',
   subtitle,
   primaryCta = 'Get Started',
   secondaryCta = 'Schedule Free Consultation',

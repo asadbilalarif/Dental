@@ -1,6 +1,7 @@
 export const SITE_CONFIG = {
-  name: 'Capline Dental Services',
-  tagline: 'AI-Enabled End-to-End Dental RCM Services',
+  name: 'NUMCARE-RCM',
+  logo: '/Logo-NUMCARE.png',
+  tagline: 'Your Billing Partner',
   phone: '888-666-0604',
   phoneDisplay: '(888) 666-0604',
   email: 'info@caplinedentalservices.com',
